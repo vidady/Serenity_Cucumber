@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.studentapp.junit.studentsinfo.FirstSerenityTest
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 1, Errors: 2, Skipped: 3, Time elapsed: 3.294 sec <<< FAILURE! - in com.studentapp.junit.studentsinfo.FirstSerenityTest
-thisIsAFailingTest(com.studentapp.junit.studentsinfo.FirstSerenityTest)  Time elapsed: 0.303 sec  <<< FAILURE!
+Tests run: 8, Failures: 1, Errors: 2, Skipped: 3, Time elapsed: 7.462 sec <<< FAILURE! - in com.studentapp.junit.studentsinfo.FirstSerenityTest
+thisIsAFailingTest(com.studentapp.junit.studentsinfo.FirstSerenityTest)  Time elapsed: 0.861 sec  <<< FAILURE!
 java.lang.AssertionError: 1 expectation failed.
 Expected status code <500> but was <200>.
 
@@ -30,11 +30,11 @@ Expected status code <500> but was <200>.
 	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
 	at com.studentapp.junit.studentsinfo.FirstSerenityTest.thisIsAFailingTest(FirstSerenityTest.java:48)
 
-thisIsATestWithError(com.studentapp.junit.studentsinfo.FirstSerenityTest)  Time elapsed: 0.386 sec  <<< ERROR!
+thisIsATestWithError(com.studentapp.junit.studentsinfo.FirstSerenityTest)  Time elapsed: 0.902 sec  <<< ERROR!
 java.lang.ArithmeticException: / by zero
 	at com.studentapp.junit.studentsinfo.FirstSerenityTest.thisIsATestWithError(FirstSerenityTest.java:78)
 
-FileDoesNotExists(com.studentapp.junit.studentsinfo.FirstSerenityTest)  Time elapsed: 0.425 sec  <<< ERROR!
+FileDoesNotExists(com.studentapp.junit.studentsinfo.FirstSerenityTest)  Time elapsed: 0.904 sec  <<< ERROR!
 java.io.FileNotFoundException: E:\file.txt (The system cannot find the path specified)
 	at java.io.FileInputStream.open0(Native Method)
 	at java.io.FileInputStream.open(FileInputStream.java:195)

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.studentapp.junit.studentsIdInfo.FirstSerenityIdTest" time="3.649" tests="7" errors="2" skipped="3" failures="1">
+<testsuite name="com.studentapp.junit.studentsIdInfo.FirstSerenityIdTest" time="5.756" tests="7" errors="2" skipped="3" failures="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_101\jre\bin"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\vdubey\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf8203808247140357533.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\vdubey\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf14324960450096988141.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_101\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk-12.0.1/bin/server;C:/Program Files/Java/jdk-12.0.1/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Artifactory\artifactory-3.2.0;C:\Maven\apache-maven-3.2.1\bin;C:\android\tools;C:\android\platform-tools;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-12.0.1\bin;D:\Artifacts\apache-maven-3.6.0\bin;D:\Work\exes;C:\Program Files\PuTTY\;D:\Artifacts\allure-commandline-2.11.0\allure-2.11.0\bin;C:\Users\vdubey\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\vdubey\AppData\Local\Programs\Python\Python37-32\;C:\Users\vdubey\AppData\Local\Microsoft\WindowsApps;C:\Users\vdubey\AppData\Local\Android\Sdk\platform-tools;C:\Users\vdubey\AppData\Local\Android\Sdk;C:\Users\vdubey\AppData\Local\Android\Sdk\tools;;C:\Users\vdubey\eclipse\jee-2019-06\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -60,7 +60,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="thisIsAFailingTest" classname="com.studentapp.junit.studentsIdInfo.FirstSerenityIdTest" time="2.964">
+  <testcase name="thisIsAFailingTest" classname="com.studentapp.junit.studentsIdInfo.FirstSerenityIdTest" time="3.612">
     <failure message="1 expectation failed.&#10;Expected status code &lt;500&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
 Expected status code <500> but was <200>.
 
@@ -101,7 +101,7 @@ Expected status code <500> but was <200>.
     <system-out><![CDATA[HTTP/1.1 200 
 Content-Type: application/json;charset=UTF-8
 Transfer-Encoding: chunked
-Date: Wed, 17 Jul 2019 09:30:17 GMT
+Date: Wed, 17 Jul 2019 12:11:52 GMT
 
 [
     {
@@ -1315,10 +1315,21 @@ Date: Wed, 17 Jul 2019 09:30:17 GMT
             "Engineering Analysis I",
             "Calculus & Linear Algebra I "
         ]
+    },
+    {
+        "id": 101,
+        "firstName": "SMOKEUSER",
+        "lastName": "SMOKEUSER",
+        "email": "xyz@gmail.com",
+        "programme": "CS",
+        "courses": [
+            "JAVA",
+            "PYTHON"
+        ]
     }
 ]
 ]]></system-out>
-    <system-err><![CDATA[206 [main] INFO net.thucydides.core.steps.ConsoleLoggingListener - &amp#27;[36m
+    <system-err><![CDATA[223 [main] INFO net.thucydides.core.steps.ConsoleLoggingListener - &amp#27;[36m
 
 -------------------------------------------------------------------------------------
      _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
@@ -1335,8 +1346,8 @@ Date: Wed, 17 Jul 2019 09:30:17 GMT
  Learn Serenity BDD online at http://serenity-dojo.com                               
 -------------------------------------------------------------------------------------
 &amp#27;[0m
-482 [main] INFO net.thucydides.core.steps.ConsoleLoggingListener - Test Suite Started: First serenity id test
-1004 [main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+528 [main] INFO net.thucydides.core.steps.ConsoleLoggingListener - Test Suite Started: First serenity id test
+1600 [main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
 |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
@@ -1346,12 +1357,12 @@ Date: Wed, 17 Jul 2019 09:30:17 GMT
 
 TEST STARTED: thisIsAFailingTest
 -------------------------------------------------------------------
-1005 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 1
+1600 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 1
 ]]></system-err>
   </testcase>
   <testcase name="thisIsASkippedTest" classname="com.studentapp.junit.studentsIdInfo.FirstSerenityIdTest" time="0">
     <skipped/>
-    <system-err><![CDATA[3909 [main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+    <system-err><![CDATA[5967 [main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
            __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
   _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
  (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
@@ -1361,8 +1372,8 @@ TEST STARTED: thisIsAFailingTest
 
 TEST FAILED: This is a failing test
 --------------------------------------------------------------------------
-3914 [main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 1 expectation failed.Expected status code <500> but was <200>.
-4159 [main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+5970 [main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 1 expectation failed.Expected status code <500> but was <200>.
+6674 [main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
 |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
@@ -1372,9 +1383,9 @@ TEST FAILED: This is a failing test
 
 TEST STARTED: thisIsASkippedTest
 -------------------------------------------------------------------
-4159 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 2
-4160 [main] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST IGNORED
-4161 [main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+6674 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 2
+6675 [main] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST IGNORED
+6675 [main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
             __  _____ _____ ____ _____   ____  _  _____ ____  ____  _____ ____  
   _        / / |_   _| ____/ ___|_   _| / ___|| |/ /_ _|  _ \|  _ \| ____|  _ \ 
  (_)_____ / /    | | |  _| \___ \ | |   \___ \| ' / | || |_) | |_) |  _| | | | |
@@ -1388,7 +1399,7 @@ TEST SKIPPED: This is a skipped test
   </testcase>
   <testcase name="ThisIsAManualTest" classname="com.studentapp.junit.studentsIdInfo.FirstSerenityIdTest" time="0">
     <skipped/>
-    <system-err><![CDATA[4358 [main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+    <system-err><![CDATA[7406 [main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
 |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
@@ -1398,10 +1409,10 @@ TEST SKIPPED: This is a skipped test
 
 TEST STARTED: ThisIsAManualTest
 -------------------------------------------------------------------
-4358 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 3
-4359 [main] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST MANUAL
-4359 [main] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST PENDING
-4360 [main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+7406 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 3
+7407 [main] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST MANUAL
+7407 [main] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST PENDING
+7407 [main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
           __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
  _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
 (_)____ / /    | | |  _| \___ \ | |   | |_) |  _| |  \| | | | | ||  \| | |  _ 
@@ -1415,7 +1426,7 @@ TEST PENDING: This is a manual test
   </testcase>
   <testcase name="thisIsAPendingTest" classname="com.studentapp.junit.studentsIdInfo.FirstSerenityIdTest" time="0">
     <skipped/>
-    <system-err><![CDATA[4589 [main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+    <system-err><![CDATA[8145 [main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
 |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
@@ -1425,9 +1436,9 @@ TEST PENDING: This is a manual test
 
 TEST STARTED: thisIsAPendingTest
 -------------------------------------------------------------------
-4589 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 4
-4589 [main] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST PENDING
-4590 [main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+8145 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 4
+8146 [main] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST PENDING
+8147 [main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
           __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
  _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
 (_)____ / /    | | |  _| \___ \ | |   | |_) |  _| |  \| | | | | ||  \| | |  _ 
@@ -1439,11 +1450,11 @@ TEST PENDING: This is a pending test
 ---------------------------------------------------------------------------------
 ]]></system-err>
   </testcase>
-  <testcase name="thisIsATestWithError" classname="com.studentapp.junit.studentsIdInfo.FirstSerenityIdTest" time="0.232">
+  <testcase name="thisIsATestWithError" classname="com.studentapp.junit.studentsIdInfo.FirstSerenityIdTest" time="0.688">
     <error message="/ by zero" type="java.lang.ArithmeticException">java.lang.ArithmeticException: / by zero
 	at com.studentapp.junit.studentsIdInfo.FirstSerenityIdTest.thisIsATestWithError(FirstSerenityIdTest.java:77)
 </error>
-    <system-err><![CDATA[4821 [main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+    <system-err><![CDATA[8833 [main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
 |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
@@ -1453,11 +1464,11 @@ TEST PENDING: This is a pending test
 
 TEST STARTED: thisIsATestWithError
 -------------------------------------------------------------------
-4821 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 5
+8833 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 5
 ]]></system-err>
   </testcase>
-  <testcase name="getAllStudents" classname="com.studentapp.junit.studentsIdInfo.FirstSerenityIdTest" time="0.253"/>
-  <testcase name="FileDoesNotExists" classname="com.studentapp.junit.studentsIdInfo.FirstSerenityIdTest" time="0.2">
+  <testcase name="getAllStudents" classname="com.studentapp.junit.studentsIdInfo.FirstSerenityIdTest" time="0.75"/>
+  <testcase name="FileDoesNotExists" classname="com.studentapp.junit.studentsIdInfo.FirstSerenityIdTest" time="0.706">
     <error message="E:\file.txt (The system cannot find the path specified)" type="java.io.FileNotFoundException"><![CDATA[java.io.FileNotFoundException: E:\file.txt (The system cannot find the path specified)
 	at java.io.FileInputStream.open0(Native Method)
 	at java.io.FileInputStream.open(FileInputStream.java:195)
@@ -1465,7 +1476,7 @@ TEST STARTED: thisIsATestWithError
 	at java.io.FileReader.<init>(FileReader.java:72)
 	at com.studentapp.junit.studentsIdInfo.FirstSerenityIdTest.FileDoesNotExists(FirstSerenityIdTest.java:83)
 ]]></error>
-    <system-err><![CDATA[5075 [main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+    <system-err><![CDATA[9581 [main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
   _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
  (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
@@ -1475,7 +1486,7 @@ TEST STARTED: thisIsATestWithError
 
 TEST PASSED: Get all students
 ----------------------------------------------------------------------------
-5281 [main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+10296 [main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
 |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
@@ -1485,7 +1496,7 @@ TEST PASSED: Get all students
 
 TEST STARTED: FileDoesNotExists
 -------------------------------------------------------------------
-5281 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 7
+10296 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 7
 ]]></system-err>
   </testcase>
 </testsuite>

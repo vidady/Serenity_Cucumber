@@ -1,3 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"First serenity id test","This is a failing test","FAILURE","2019-07-17T15:00:14.996+05:30[Asia/Calcutta]","0.0","2.93"
-"First serenity test","This is a failing test","FAILURE","2019-07-17T15:00:23.911+05:30[Asia/Calcutta]","0.0","0.46"
+"First serenity id test","This is a failing test","FAILURE","2019-07-17T17:41:49.704+05:30[Asia/Calcutta]","0.0","3.58"
+"First serenity test","This is a failing test","FAILURE","2019-07-17T17:42:06.299+05:30[Asia/Calcutta]","0.0","1.0"
+"Students CRUD test","This test will create new student","FAILURE","2019-07-17T17:42:13.943+05:30[Asia/Calcutta]","0.0","1.29"
